@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Panel Użytkownika</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel użytkownika - Logowanie</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Witaj w Panelu Użytkownika</h1>
-  <p>To twoja baza do nauki Firebase i hostingu.</p>
+  <div class="container">
+    <h1>Panel użytkownika</h1>
+    
+    <div id="login-form" class="form active">
+      <h2>Logowanie</h2>
+      <input type="email" id="login-email" placeholder="Email" />
+      <input type="password" id="login-password" placeholder="Hasło" />
+      <button id="login-btn">Zaloguj się</button>
+      <p>Nie masz konta? <span class="link" id="show-register">Zarejestruj się</span></p>
+    </div>
+
+    <div id="register-form" class="form">
+      <h2>Rejestracja</h2>
+      <input type="email" id="register-email" placeholder="Email" />
+      <input type="password" id="register-password" placeholder="Hasło" />
+      <button id="register-btn">Zarejestruj się</button>
+      <p>Masz już konto? <span class="link" id="show-login">Zaloguj się</span></p>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
