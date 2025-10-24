@@ -61,3 +61,5 @@ button:hover {
 .form.active {
   display: block;
 }
+.success { background: #d1ffd1; color: #106410; }
+.error { background: #ffd1d1; color: #8b0000; }
