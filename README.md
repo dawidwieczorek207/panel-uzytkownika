@@ -23,6 +23,19 @@ Projekt oparty na **Firebase Authentication**, stworzony w **HTML, CSS i JavaScr
 
 ---
 
+## 📸 Zrzuty ekranu
+
+### Ekran logowania
+![Login](https://raw.githubusercontent.com/dawidwieczorek207/panel-uzytkownika/main/assets/login.png)
+
+### Dashboard po zalogowaniu
+![Dashboard](https://raw.githubusercontent.com/dawidwieczorek207/panel-uzytkownika/main/assets/dashboard.png)
+
+### Ekran Rejestracji
+![Register](https://raw.githubusercontent.com/dawidwieczorek207/panel-uzytkownika/main/assets/register.png)
+
+---
+
 ## ⚙️ Instalacja
 
 1. Sklonuj repozytorium:
